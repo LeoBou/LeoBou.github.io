@@ -1,0 +1,6 @@
+[
+{"nom":"playwright","repo":"microsoft/playwright", "stars":85281,"forks":5385, "issues":613},
+{"nom":"BeautifulSoup4","repo":"wention/BeautifulSoup4", "stars":212,"forks":60, "issues":3},
+{"nom":"selenium","repo":"SeleniumHQ/selenium", "stars":34167,"forks":8668, "issues":199},
+{"nom":"cypress","repo":"cypress-io/cypress", "stars":49608,"forks":3401, "issues":1216}
+]

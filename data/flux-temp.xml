@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Portefolio Léopold</title>
+	<atom:link href="https://portefolio.leopold.monster/feed/" rel="self" type="application/rss+xml" />
+	<link>https://portefolio.leopold.monster</link>
+	<description>Léopold est le meilleur informaticien</description>
+	<lastBuildDate>Sat, 28 Mar 2026 04:33:58 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.9.4</generator>
+
+<image>
+	<url>https://portefolio.leopold.monster/wp-content/uploads/2026/03/cropped-10438243-32x32.webp</url>
+	<title>Portefolio Léopold</title>
+	<link>https://portefolio.leopold.monster</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>Service d&#8217;alerte de prix Python/PHP</title>
+		<link>https://portefolio.leopold.monster/showoff/service-dalerte-de-prix-python-php/</link>
+					<comments>https://portefolio.leopold.monster/showoff/service-dalerte-de-prix-python-php/#respond</comments>
+		
+		<dc:creator><![CDATA[leo]]></dc:creator>
+		<pubDate>Thu, 26 Mar 2026 21:58:58 +0000</pubDate>
+				<category><![CDATA[ShowOff]]></category>
+		<category><![CDATA[Beautiful Soup]]></category>
+		<category><![CDATA[Email]]></category>
+		<category><![CDATA[HTML]]></category>
+		<category><![CDATA[MySQL]]></category>
+		<category><![CDATA[PHP]]></category>
+		<category><![CDATA[Playwright]]></category>
+		<category><![CDATA[Python]]></category>
+		<category><![CDATA[Scraping]]></category>
+		<category><![CDATA[Serveur]]></category>
+		<guid isPermaLink="false">https://portefolio.leopold.monster/?p=247</guid>
+
+					<description><![CDATA[CoolTracker J&#8217;ai fait un site d&#8217;alerte de prix par email pour quasi n&#8217;importe quel site. L&#8217;utilisateur n&#8217;as qu&#8217;a ajouter les données que l&#8217;extension que j&#8217;ai aussi créer lui demande d&#8217;entrée. Mon extension demande simplement au client de cliquer sur le prix de l&#8217;item et elle retourne toutes les informations nécéssaire à l&#8217;ajout d&#8217;un nouvel item. [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p><img fetchpriority="high" decoding="async" class="wp-image-248 aligncenter" src="http://portefolio.leopold.monster/wp-content/uploads/2026/03/Screenshot-from-2026-03-26-17-44-50-300x150.png" alt="" width="1370" height="685" srcset="https://portefolio.leopold.monster/wp-content/uploads/2026/03/Screenshot-from-2026-03-26-17-44-50-300x150.png 300w, https://portefolio.leopold.monster/wp-content/uploads/2026/03/Screenshot-from-2026-03-26-17-44-50-768x384.png 768w, https://portefolio.leopold.monster/wp-content/uploads/2026/03/Screenshot-from-2026-03-26-17-44-50-1536x768.png 1536w, https://portefolio.leopold.monster/wp-content/uploads/2026/03/Screenshot-from-2026-03-26-17-44-50.png 1920w" sizes="(max-width: 1370px) 100vw, 1370px" /></p>
+<p><a href="https://projet.leopold.monster/">CoolTracker</a></p>
+<p>J&#8217;ai fait un site d&#8217;alerte de prix par email pour quasi n&#8217;importe quel site. L&#8217;utilisateur n&#8217;as qu&#8217;a ajouter les données que l&#8217;extension que j&#8217;ai aussi créer lui demande d&#8217;entrée. Mon extension demande simplement au client de cliquer sur le prix de l&#8217;item et elle retourne toutes les informations nécéssaire à l&#8217;ajout d&#8217;un nouvel item. Le client peut se connecter à l&#8217;aide de son compte google puisque cela inspire confiance. Le site est simple et facile à utiliser. Le site dispose d&#8217;un tutoriel pour que n&#8217;importe quel utilisateur puisse l&#8217;utiliser.</p>
+<p><img decoding="async" class="alignnone wp-image-250" src="http://portefolio.leopold.monster/wp-content/uploads/2026/03/Screenshot-from-2026-03-26-17-55-36-300x163.png" alt="" width="1353" height="735" srcset="https://portefolio.leopold.monster/wp-content/uploads/2026/03/Screenshot-from-2026-03-26-17-55-36-300x163.png 300w, https://portefolio.leopold.monster/wp-content/uploads/2026/03/Screenshot-from-2026-03-26-17-55-36-768x417.png 768w, https://portefolio.leopold.monster/wp-content/uploads/2026/03/Screenshot-from-2026-03-26-17-55-36-1536x834.png 1536w, https://portefolio.leopold.monster/wp-content/uploads/2026/03/Screenshot-from-2026-03-26-17-55-36.png 1913w" sizes="(max-width: 1353px) 100vw, 1353px" /></p>
+<p>Le site est lié à ma base de données pour garder les informations des utilisateurs ainsi que les items qu&#8217;ils suivent. J&#8217;ai aussi un script en python qui est connecté à ma base de données qui me permet d&#8217;aller scraper les prix en temps réel sur quasi n&#8217;importe quel site. Le script prend en input des liens avec une balise html pour pouvoir accélérer le processus de recherche au cas où le site serait fait étrangement. Le script trouve la balise sur le site et procède de vérifier quelques balises autour pour le prix complet et le plus probable. Par exemple, si le client clique sur le prix par mois sur 4 mois, le script va tout de même chercher pour le prix plein. Pareil pour si le client appuie sur le prix sans rabais. Les prix sont vérifié aux quelques heures pour s&#8217;assurer que le client ait une alerte assez rapidement, mais aussi pour limiter l&#8217;impact sur mon serveur et de limiter la probabilité d&#8217;avoir mon IP banni par un site puisqu&#8217;au final c&#8217;est un robot.</p>
+<p>&nbsp;</p>
+<p>Voici un de mes sites qui pourrait simuler la vente de n&#8217;importe quel item avec des comptes utilisateurs, l&#8217;utilisation de paypal, etc. : <a href="https://portefolio.leopold.monster/showoff/nftstore-projet-web-transactionnel/">https://portefolio.leopold.monster/showoff/nftstore-projet-web-transactionnel/</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://portefolio.leopold.monster/showoff/service-dalerte-de-prix-python-php/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Wy Zard, The Wizard Jeu VR en unity</title>
+		<link>https://portefolio.leopold.monster/showoff/wy-zard-the-wizard-jeu-vr-en-unity/</link>
+					<comments>https://portefolio.leopold.monster/showoff/wy-zard-the-wizard-jeu-vr-en-unity/#respond</comments>
+		
+		<dc:creator><![CDATA[leo]]></dc:creator>
+		<pubDate>Thu, 26 Mar 2026 20:46:39 +0000</pubDate>
+				<category><![CDATA[ShowOff]]></category>
+		<category><![CDATA[C#]]></category>
+		<category><![CDATA[Magicien]]></category>
+		<category><![CDATA[Sorcellerie]]></category>
+		<category><![CDATA[Unity]]></category>
+		<category><![CDATA[Valve Index]]></category>
+		<category><![CDATA[VR]]></category>
+		<guid isPermaLink="false">https://portefolio.leopold.monster/?p=240</guid>
+
+					<description><![CDATA[Le jeu VR Wy Zard, The Wizard est un jeu VR où le joueur incarne un sorcier qui doit libérer un parc national d&#8217;un méchant monstre appelé Hipomuth. Le joueur débute dans une cabane où les instructions sont affichées sur des panneaux en bois pour que le joueur n&#8217;ait pas besoin de jouer avec le [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p>Le jeu VR Wy Zard, The Wizard est un jeu VR où le joueur incarne un sorcier qui doit libérer un parc national d&#8217;un méchant monstre appelé Hipomuth. Le joueur débute dans une cabane où les instructions sont affichées sur des panneaux en bois pour que le joueur n&#8217;ait pas besoin de jouer avec le son. Par la suite, le joueur doit se diriger vers un feu de camp magique qui pourra faire apparaitre un bâton de magicien après y avoir placé trois bouts de bois. Lorsque le joueur a le bâton de magicien, il peut se diriger vers l&#8217;arène de combat où l&#8217;Hipomuth l&#8217;attend. Le joueur dispose de deux sorts différents ainsi que de potions de régénération qui apparaissent un peu partout dans l&#8217;arène pour l&#8217;aider à survivre. Si le joueur échappe le bâton, il peut le rappeler comme Thor avec son marteau en plaçant sa main devant lui. Le joueur dispose aussi d&#8217;un bouclier pour se protéger des nombreuses attaques de l&#8217;Hipomuth.</p>
+<p>&nbsp;</p>
+<p>Le jeu est entièrement fait par nous en utilisant des assets gratuits en ligne. Le jeu a été fait dans Unity VR avec un casque VR Steam Valve Index. Nous utilisons plusieurs des nombreuses spécificités du Valve Index, comme les détecteurs de pressions sensorielles sur les manettes, pour détecter lorsque le joueur a la main fermée pour tenir le bâton et les bouts de bois. Nous avons aussi implémenté plusieurs techniques pour tenter de réduire le mal de mouvement, comme le vignettage et le simple fait d&#8217;avoir un sol plat sans mouvement. Nous empêchons aussi le joueur de passer à travers les murs en obscurcissant sa vision et en arrêtant tout mouvement jusqu&#8217;à ce que le casque sorte du mur. Le combat est bien balancé pour avoir un peu de difficulté tout en gardant le jeu possible à terminer.</p>
+<p>Voici un autre jeu Unity dont j&#8217;ai fait : <a href="https://portefolio.leopold.monster/showoff/jeu-gamejam/">https://portefolio.leopold.monster/showoff/jeu-gamejam</a>/</p>
+<p>Voici une lien vers le même projet sur le portefolio d&#8217;un des collaborateurs : <a href="https://portefolio.maxcorb.cv/jeu/the-wizzard/">https://portefolio.maxcorb.cv/jeu/the-wizzard/</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://portefolio.leopold.monster/showoff/wy-zard-the-wizard-jeu-vr-en-unity/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Documentation de la Création d&#8217;un serveur mail PostFix/DoveCot</title>
+		<link>https://portefolio.leopold.monster/showoff/documentation-de-la-creation-dun-serveur-mail-postfix-dovecot/</link>
+					<comments>https://portefolio.leopold.monster/showoff/documentation-de-la-creation-dun-serveur-mail-postfix-dovecot/#respond</comments>
+		
+		<dc:creator><![CDATA[leo]]></dc:creator>
+		<pubDate>Thu, 26 Mar 2026 20:39:41 +0000</pubDate>
+				<category><![CDATA[ShowOff]]></category>
+		<category><![CDATA[Dovecot]]></category>
+		<category><![CDATA[Email]]></category>
+		<category><![CDATA[MFA]]></category>
+		<category><![CDATA[Postfix]]></category>
+		<category><![CDATA[Rainloop]]></category>
+		<category><![CDATA[Web]]></category>
+		<guid isPermaLink="false">https://portefolio.leopold.monster/?p=233</guid>
+
+					<description><![CDATA[https://mail.leopold.monster/ Ce projet a commencé par pur défi technique lors d&#8217;un cours à l&#8217;école. L&#8217;idée était de monter mon propre service de messagerie de A à Z pour voir si je pouvais rivaliser avec les standards de Gmail ou Proton. Le plus gros morceau a été de configurer la réputation du serveur avec DKIM, DMARC [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p><img decoding="async" class=" wp-image-235 aligncenter" src="http://portefolio.leopold.monster/wp-content/uploads/2026/03/Screenshot-from-2026-03-26-16-36-41-300x150.png" alt="" width="968" height="484" srcset="https://portefolio.leopold.monster/wp-content/uploads/2026/03/Screenshot-from-2026-03-26-16-36-41-300x150.png 300w, https://portefolio.leopold.monster/wp-content/uploads/2026/03/Screenshot-from-2026-03-26-16-36-41-768x384.png 768w, https://portefolio.leopold.monster/wp-content/uploads/2026/03/Screenshot-from-2026-03-26-16-36-41-1536x768.png 1536w, https://portefolio.leopold.monster/wp-content/uploads/2026/03/Screenshot-from-2026-03-26-16-36-41.png 1920w" sizes="(max-width: 968px) 100vw, 968px" /></p>
+<p data-path-to-node="3"><a href="https://mail.leopold.monster/">https://mail.leopold.monster/</a></p>
+<p data-path-to-node="3">Ce projet a commencé par pur défi technique lors d&#8217;un cours à l&#8217;école. L&#8217;idée était de monter mon propre service de messagerie de A à Z pour voir si je pouvais rivaliser avec les standards de Gmail ou Proton. Le plus gros morceau a été de configurer la réputation du serveur avec <b data-path-to-node="4" data-index-in-node="71">DKIM, DMARC et SPF</b>. C&#8217;est essentiel pour que mes courriels soient acceptés par les autres serveurs et qu&#8217;ils ne finissent pas directement dans les spams. J&#8217;ai aussi ajouté <b data-path-to-node="4" data-index-in-node="243">SpamAssassin</b> pour le filtrage et un chiffrement complet pour sécuriser les échanges. Pour l&#8217;utilisation au quotidien, j&#8217;ai installé l&#8217;interface web <b data-path-to-node="5" data-index-in-node="63">Rainloop</b>. J&#8217;y ai même intégré la <b data-path-to-node="5" data-index-in-node="96">MFA</b> (authentification à deux facteurs) pour ajouter une couche de sécurité supplémentaire. Sur la capture d&#8217;écran, on peut voir l&#8217;interface finale qui est aussi fluide que n&#8217;importe quel service commercial.</p>
+<p data-path-to-node="3">Le projet s&#8217;appuie sur <b data-path-to-node="3" data-index-in-node="23">Postfix</b> comme agent de transfert (MTA) pour l&#8217;envoi et la réception, couplé à <b data-path-to-node="3" data-index-in-node="101">Dovecot</b> pour la gestion des boîtes aux lettres via IMAP. Lorsqu&#8217;un courriel arrive, il passe d&#8217;abord par un filtre <b data-path-to-node="3" data-index-in-node="216">SpamAssassin</b> qui analyse le contenu pour bloquer les indésirables avant qu&#8217;ils n&#8217;atteignent l&#8217;utilisateur. Pour l&#8217;envoi, afin d&#8217;éviter d&#8217;être banni par les gros fournisseurs comme Gmail ou Outlook, j&#8217;ai configuré les enregistrements DNS <b data-path-to-node="3" data-index-in-node="453">SPF, DKIM et DMARC</b> : ces signatures numériques prouvent l&#8217;identité de mon serveur et valident que le message n&#8217;a pas été altéré. Côté client, j&#8217;utilise l&#8217;interface web <b data-path-to-node="3" data-index-in-node="621">Rainloop</b> qui communique avec le serveur via des protocoles chiffrés (SSL/TLS). J&#8217;y ai ajouté une couche de sécurité <b data-path-to-node="3" data-index-in-node="737">MFA</b> (Multi-Factor Authentication) pour protéger l&#8217;accès aux comptes. Tout le système est conçu pour être autonome, sécurisé et respectueux des standards modernes de la messagerie.</p>
+<p data-path-to-node="3">
+<p data-path-to-node="3">Dans un même style de setup, mais plus extraordinaire voici mon service de météo par sms : <a href="https://portefolio.leopold.monster/showoff/service-meteo-par-sms/">https://portefolio.leopold.monster/showoff/service-meteo-par-sms/</a></p>
+<p data-path-to-node="3">
+]]></content:encoded>
+					
+					<wfw:commentRss>https://portefolio.leopold.monster/showoff/documentation-de-la-creation-dun-serveur-mail-postfix-dovecot/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Service Météo par Sms</title>
+		<link>https://portefolio.leopold.monster/showoff/service-meteo-par-sms/</link>
+					<comments>https://portefolio.leopold.monster/showoff/service-meteo-par-sms/#comments</comments>
+		
+		<dc:creator><![CDATA[leo]]></dc:creator>
+		<pubDate>Thu, 19 Mar 2026 19:52:39 +0000</pubDate>
+				<category><![CDATA[ShowOff]]></category>
+		<category><![CDATA[Android]]></category>
+		<category><![CDATA[Automatisation]]></category>
+		<category><![CDATA[Base64]]></category>
+		<category><![CDATA[Javascript]]></category>
+		<category><![CDATA[Mobile]]></category>
+		<category><![CDATA[Node]]></category>
+		<category><![CDATA[Serveur]]></category>
+		<category><![CDATA[SMS]]></category>
+		<category><![CDATA[Twilio]]></category>
+		<guid isPermaLink="false">https://portefolio.leopold.monster/?p=220</guid>
+
+					<description><![CDATA[Ce projet vise à rendre possible pour un utilisateur ne disposant pas de connexion réseau Wifi, LTE, 5G, 4G, 3G ou peu importe d&#8217;accéder à la météo actuelle, des 32 prochaines heures et des sept prochains jours. Ça peut aussi être utile pour quelqu&#8217;un qui serait en région éloignée ou il ne capte pas très [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p><img loading="lazy" decoding="async" class="size-medium wp-image-222 aligncenter" src="http://portefolio.leopold.monster/wp-content/uploads/2026/03/Screenshot_20260326-150548-138x300.png" alt="" width="138" height="300" srcset="https://portefolio.leopold.monster/wp-content/uploads/2026/03/Screenshot_20260326-150548-138x300.png 138w, https://portefolio.leopold.monster/wp-content/uploads/2026/03/Screenshot_20260326-150548-498x1080.png 498w, https://portefolio.leopold.monster/wp-content/uploads/2026/03/Screenshot_20260326-150548-768x1664.png 768w, https://portefolio.leopold.monster/wp-content/uploads/2026/03/Screenshot_20260326-150548-709x1536.png 709w, https://portefolio.leopold.monster/wp-content/uploads/2026/03/Screenshot_20260326-150548-945x2048.png 945w, https://portefolio.leopold.monster/wp-content/uploads/2026/03/Screenshot_20260326-150548.png 1080w" sizes="auto, (max-width: 138px) 100vw, 138px" /></p>
+<p>Ce projet vise à rendre possible pour un utilisateur ne disposant pas de connexion réseau Wifi, LTE, 5G, 4G, 3G ou peu importe d&#8217;accéder à la météo actuelle, des 32 prochaines heures et des sept prochains jours. Ça peut aussi être utile pour quelqu&#8217;un qui serait en région éloignée ou il ne capte pas très bien, mais juste assez pour envoyer et recevoir un SMS. Pour rendre le processus plus simple, j&#8217;ai ajouté sur mon téléphone Android une macro qui permet de prendre mes coordonnées GPS actuelles et de les envoyer au numéro de téléphone relié à mon serveur. Lorsque le serveur reçoit une alerte qui l&#8217;avertit qu&#8217;un SMS est arrivé, il parcourt mon message pour attraper les coordonnées. Lorsqu&#8217;il a les coordonnées il va chercher les prévisions météorologiques pour la position GPS qu&#8217;il a reçue. Ensuite il compresse les données nécessaires pour que le message puisse rentrer dans la limite de 160 caractères des SMS pour limiter les coûts liés à l&#8217;envoi des SMS et me l&#8217;envoie. Par la suite, je peux copier le message et le coller dans mon application. L&#8217;application décompresse le message et affiche les données que nous pouvons voir dans la capture d&#8217;écran ci-haut.</p>
+<p>&nbsp;</p>
+<p><img loading="lazy" decoding="async" class=" wp-image-223 aligncenter" src="http://portefolio.leopold.monster/wp-content/uploads/2026/03/sms-obfuscated-138x300.png" alt="" width="133" height="289" srcset="https://portefolio.leopold.monster/wp-content/uploads/2026/03/sms-obfuscated-138x300.png 138w, https://portefolio.leopold.monster/wp-content/uploads/2026/03/sms-obfuscated-498x1080.png 498w, https://portefolio.leopold.monster/wp-content/uploads/2026/03/sms-obfuscated-768x1664.png 768w, https://portefolio.leopold.monster/wp-content/uploads/2026/03/sms-obfuscated-709x1536.png 709w, https://portefolio.leopold.monster/wp-content/uploads/2026/03/sms-obfuscated-945x2048.png 945w, https://portefolio.leopold.monster/wp-content/uploads/2026/03/sms-obfuscated.png 1080w" sizes="auto, (max-width: 133px) 100vw, 133px" /></p>
+<p>&nbsp;</p>
+<p><a href="https://github.com/LeoBou/sms-weather">Github SmsWeather</a></p>
+<p>Le projet utilise Twilio pour la communication SMS dans les deux sens (recevoir et envoyer). Lorsque j&#8217;envoie un message au numéro Twilio, il notifie mon serveur via un webhook sur une URL. L&#8217;URL envoie ensuite la requête sur le port 3000 où un service node est déjà lancé et prêt à recevoir le SMS que le client a envoyé et son contenu. Lorsqu&#8217;il a son contenu, il peut ensuite parser celui-ci pour avoir la position GPS du client. Lorsqu&#8217;il a la position GPS, il passe par l&#8217;API OneCall 3.0 d&#8217;OpenWeather pour aller chercher les prévisions météorologiques en JSON. Il garde seulement les informations dont il a besoin pour garder le message SMS le plus court possible et le compresse en base64. Il envoie par la suite tout cela par SMS. Lorsque sur mon téléphone je reçois ce même message et qu&#8217;une macro sur mon téléphone copie le message pour plus d&#8217;efficacité et de rapidité puisque mon app recherche dans le presse-papier pour trouver la ligne de base64. Il la décompresse ensuite pour récolter le JSON de base et l&#8217;affiche dans l&#8217;application.</p>
+<p>&nbsp;</p>
+<h3>Automatisation</h3>
+<p>Le service node est entièrement automatisé pour se lancer au redémarrage du serveur et pour tenter de le redémarrer si le service crash. Pareil avec la copie du message du côté client la copie du message reçu est automatisée. L&#8217;envoi côté client est aussi automatisé avec une macro qui, au simple clic, envoie les coordonnées GPS.</p>
+<p>&nbsp;</p>
+<p>Toujours au niveau de la communication voici mon projet de documentation pour lancer de A-Z un serveur mail postfix/dovecot : <a href="https://portefolio.leopold.monster/showoff/documentation-de-la-creation-dun-serveur-mail-postfix-dovecot/">https://portefolio.leopold.monster/showoff/documentation-de-la-creation-dun-serveur-mail-postfix-dovecot/</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://portefolio.leopold.monster/showoff/service-meteo-par-sms/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Jeu de Tank Multijoueur en node</title>
+		<link>https://portefolio.leopold.monster/showoff/jeu-multijoueur/</link>
+					<comments>https://portefolio.leopold.monster/showoff/jeu-multijoueur/#respond</comments>
+		
+		<dc:creator><![CDATA[leo]]></dc:creator>
+		<pubDate>Wed, 04 Mar 2026 13:39:08 +0000</pubDate>
+				<category><![CDATA[ShowOff]]></category>
+		<category><![CDATA[CSS]]></category>
+		<category><![CDATA[HTML]]></category>
+		<category><![CDATA[Javascript]]></category>
+		<category><![CDATA[Jeu]]></category>
+		<category><![CDATA[Multijoueur]]></category>
+		<category><![CDATA[Node]]></category>
+		<category><![CDATA[Serveur]]></category>
+		<guid isPermaLink="false">https://portefolio.leopold.monster/?p=211</guid>
+
+					<description><![CDATA[&#160; Description Mon jeu multijoueur est un jeu de combat de tank simple et amusant, il a surtout été un moyen pour moi d&#8217;expérimenter avec les sockets et la communication entre un client et un serveur dans un contexte de jeu. C&#8217;est un jeu plutôt simple, le joueur peut bouger dans les quatre directions : haut, [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p><img loading="lazy" decoding="async" class="aligncenter wp-image-215" src="http://portefolio.leopold.monster/wp-content/uploads/2026/03/tank-300x142.png" alt="" width="1011" height="479" srcset="https://portefolio.leopold.monster/wp-content/uploads/2026/03/tank-300x142.png 300w, https://portefolio.leopold.monster/wp-content/uploads/2026/03/tank-768x363.png 768w, https://portefolio.leopold.monster/wp-content/uploads/2026/03/tank-1536x726.png 1536w, https://portefolio.leopold.monster/wp-content/uploads/2026/03/tank.png 1920w" sizes="auto, (max-width: 1011px) 100vw, 1011px" /></p>
+<p>&nbsp;</p>
+<h3>Description</h3>
+<p>Mon jeu multijoueur est un jeu de combat de tank simple et amusant, il a surtout été un moyen pour moi d&#8217;expérimenter avec les sockets et la communication entre un client et un serveur dans un contexte de jeu. C&#8217;est un jeu plutôt simple, le joueur peut bouger dans les quatre directions : haut, bas, gauche et droite et tirer avec le clic gauche de la souris. La balle va directement où la souris pointe et disparait en cas de collision avec l&#8217;autre tank ou après quelques secondes pour rendre le jeu un peu plus compliqué. Le jeu est actuellement en ligne sur https:<a href="https://www.leopold.monster/">//www.leopold.monster/</a> et deux utilisateurs peuvent y jouer en même temps. Malheureusement, par manque de temps je n&#8217;ai pas implémenté la possibilité d&#8217;avoir plusieurs parties en même temps, mais ça ne serait probablement pas très compliqué. Vous pouvez l&#8217;essayer en ouvrant deux onglets et en créant un joueur sur chaque. L&#8217;espèce de bloc noir est simplement un mur.</p>
+<h3>Aspects Techniques</h3>
+<p>Le jeu est entièrement fait en langage web comme le HTML et le JavaScript. Le fichier HTML sert seulement à créer des SVG pour les balles et à créer un canvas qui sera ensuite envoyé et utilisé par les fichiers JavaScript pour afficher des images pour l&#8217;arrière plan et les tanks des joueurs. La communication entre le client et le serveur est faite à l&#8217;aide des sockets. Le principe est que le client envoie un message avec certaines informations au serveur, le serveur fait des transformations avec ces données ou pas selon le message et les renvoie aux deux joueurs/clients, par exemple lorsqu&#8217;un joueur tire une balle. Dans certains cas, le serveur ne renvoie pas de données, comme lors de l&#8217;initialisation de certains objets comme les murs. Les détections de collisions sont faites du côté des clients puisque mon serveur est trop médiocre et introduisait beaucoup de latence. Les positions des joueurs sont par contre synchronisées à chaque secondes pour s&#8217;assurer qu&#8217;il n&#8217;y ait pas de différence majeure dans les deux écrans.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://portefolio.leopold.monster/showoff/jeu-multijoueur/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Jeu de Défense GameJam Unity</title>
+		<link>https://portefolio.leopold.monster/showoff/jeu-gamejam/</link>
+					<comments>https://portefolio.leopold.monster/showoff/jeu-gamejam/#respond</comments>
+		
+		<dc:creator><![CDATA[leo]]></dc:creator>
+		<pubDate>Thu, 12 Feb 2026 21:29:32 +0000</pubDate>
+				<category><![CDATA[ShowOff]]></category>
+		<category><![CDATA[A*]]></category>
+		<category><![CDATA[C#]]></category>
+		<category><![CDATA[Jeu]]></category>
+		<category><![CDATA[PathFinding]]></category>
+		<category><![CDATA[Unity]]></category>
+		<guid isPermaLink="false">https://portefolio.leopold.monster/?p=193</guid>
+
+					<description><![CDATA[Code Github Description Notre jeu de GameJam intitulé LaserFighter est un jeu dont le nom le décrit assez bien. Le but est de faire le meilleur score possible en tuant des slimes à l&#8217;aide d&#8217;un pistolet laser tout en se faisant attaquer par ses mêmes slimes. Le jeu est assez simple, mais tout de même [&#8230;]]]></description>
+										<content:encoded><![CDATA[<p><img loading="lazy" decoding="async" class="wp-image-204 aligncenter" src="http://portefolio.leopold.monster/wp-content/uploads/2026/02/Capture-300x168.png" alt="" width="971" height="544" srcset="https://portefolio.leopold.monster/wp-content/uploads/2026/02/Capture-300x168.png 300w, https://portefolio.leopold.monster/wp-content/uploads/2026/02/Capture-768x429.png 768w" sizes="auto, (max-width: 971px) 100vw, 971px" /><br />
+<a href="https://github.com/cegepmatane/2024-gamejam-LeoBou">Code Github</a></p>
+<h3>Description</h3>
+<p>Notre jeu de GameJam intitulé LaserFighter est un jeu dont le nom le décrit assez bien. Le but est de faire le meilleur score possible en tuant des slimes à l&#8217;aide d&#8217;un pistolet laser tout en se faisant attaquer par ses mêmes slimes. Le jeu est assez simple, mais tout de même assez plaisant à jouer, je pense y ajouter des vagues d&#8217;ennemies plus tard pour rendre le jeu plus difficiles au fur et à mesure que le joueur avance. Le jeu comporte plusieurs menu pour apprendre comment y jouer ainsi qu&#8217;un menu de pause et de fin de jeu qui comporte un leaderboard avec les noms des anciens joueurs ainsi que leur score. Cela rajoute un petit aspect compétitif au jeu.</p>
+<p>&nbsp;</p>
+<h3>Aspects Techniques</h3>
+<p>Le jeu est entièrement monté dans Unity et tout les scripts sont en C# sauf pour les scripts d&#8217;API qui servent à aller chercher les anciens scores ainsi que l&#8217;ajout d&#8217;un nouveau score qui sont eux en PHP sur mon VPS. Malheureusement, l&#8217;API d&#8217;ajout de score est public, donc n&#8217;importe qui pourrait ajouter des fausses données dans ma base de données, mais heureusement toutes les entrées sont sanitize et vérifié pour s&#8217;assurer que personne ne puisse faire d&#8217;attaque en SQL injection. Un script C# relié à l&#8217;interface va chercher les données à l&#8217;aide d&#8217;un XML reader et parse ensuite les données pour les placer dans une liste qui sera elle même affichées dans l&#8217;interface. Les ennemies se dirigent vers le player grâce au path finding A* qui prend en compte les coûts de déplacement. Par exemple, les pics que nous voyons sur le sols coutent plus chère aux ennemies et vont donc prioriser de faire le tour à moins que ca soit vraiment plus pratique de passer par dessus. Le laser fonctionne avec un raycast pour voir s&#8217;il touche un ennemie.</p>
+<h4>Principe</h4>
+<p>Afin d&#8217;assurer une gestion fluide et rigoureuse des performances, le système de classement repose sur une structure de données typée où chaque entrée est encapsulée dans un modèle <b data-path-to-node="1" data-index-in-node="182">Score()</b>. Cette approche facilite l&#8217;intégration au sein du moteur Unity et rend le code nettement plus modulaire pour de futures évolutions. Pour l&#8217;affichage, j&#8217;ai opté pour un tableau de taille fixe (<b data-path-to-node="1" data-index-in-node="382">Score[10]</b>) plutôt qu&#8217;une liste dynamique ; ce choix délibéré permet de minimiser l&#8217;empreinte mémoire en utilisant une allocation statique parfaitement adaptée aux besoins du projet. Cette logique de restriction est d&#8217;ailleurs répercutée de bout en bout de la chaîne logicielle : l&#8217;API PHP limite l&#8217;extraction des données à la source via une requête SQL optimisée, garantissant ainsi une cohérence totale entre les données envoyées par le serveur et la capacité de traitement du client C#.</p>
+<p>&nbsp;</p>
+<p><img loading="lazy" decoding="async" class="wp-image-207 aligncenter" src="http://portefolio.leopold.monster/wp-content/uploads/2026/02/Capture-1-300x165.png" alt="" width="558" height="307" srcset="https://portefolio.leopold.monster/wp-content/uploads/2026/02/Capture-1-300x165.png 300w, https://portefolio.leopold.monster/wp-content/uploads/2026/02/Capture-1-768x423.png 768w, https://portefolio.leopold.monster/wp-content/uploads/2026/02/Capture-1.png 813w" sizes="auto, (max-width: 558px) 100vw, 558px" /></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://portefolio.leopold.monster/showoff/jeu-gamejam/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>NftStore &#8211; Site Web Transactionnel en PHP</title>
+		<link>https://portefolio.leopold.monster/showoff/nftstore-site-web-transactionnel/</link>
+					<comments>https://portefolio.leopold.monster/showoff/nftstore-site-web-transactionnel/#comments</comments>
+		
+		<dc:creator><![CDATA[leo]]></dc:creator>
+		<pubDate>Thu, 29 Jan 2026 19:58:46 +0000</pubDate>
+				<category><![CDATA[ShowOff]]></category>
+		<category><![CDATA[Account Managing]]></category>
+		<category><![CDATA[Ajax]]></category>
+		<category><![CDATA[Apache]]></category>
+		<category><![CDATA[Config File]]></category>
+		<category><![CDATA[Controle D'autorisations]]></category>
+		<category><![CDATA[CSS]]></category>
+		<category><![CDATA[Email]]></category>
+		<category><![CDATA[Javascript]]></category>
+		<category><![CDATA[Multilinguisme]]></category>
+		<category><![CDATA[MySQL]]></category>
+		<category><![CDATA[Paypal]]></category>
+		<category><![CDATA[PHP]]></category>
+		<category><![CDATA[Serveur]]></category>
+		<category><![CDATA[VPS]]></category>
+		<category><![CDATA[Web]]></category>
+		<guid isPermaLink="false">https://portefolio.leopold.monster/?p=171</guid>
+
+					<description><![CDATA[NftStore : C’est un site web transactionnel servant à vendre des NFT dans ce cas-ci, mais avec un style plutôt neutre, il pourrait être très facilement transformé en site de vente pour à peu près n’importe quoi. Le site est entièrement traduit en anglais et en français afin d’accueillir facilement le plus grand nombre d’utilisateurs [&#8230;]]]></description>
+										<content:encoded><![CDATA[
+<figure class="wp-block-image size-full"></figure>
+<p><img loading="lazy" decoding="async" class="wp-image-199 aligncenter" src="http://portefolio.leopold.monster/wp-content/uploads/2026/02/Screenshot-from-2026-02-12-18-02-08-300x143.png" alt="" width="1294" height="617" srcset="https://portefolio.leopold.monster/wp-content/uploads/2026/02/Screenshot-from-2026-02-12-18-02-08-300x143.png 300w, https://portefolio.leopold.monster/wp-content/uploads/2026/02/Screenshot-from-2026-02-12-18-02-08-768x365.png 768w" sizes="auto, (max-width: 1294px) 100vw, 1294px" /></p>
+<p>&nbsp;</p>
+
+
+
+<p><a href="https://nftstore.store/index.php" data-type="link" data-id="https://nftstore.store/index.php">NftStore : </a>C’est un site web transactionnel servant à vendre des NFT dans ce cas-ci, mais avec un style plutôt neutre, il pourrait être très facilement transformé en site de vente pour à peu près n’importe quoi. Le site est entièrement traduit en anglais et en français afin d’accueillir facilement le plus grand nombre d’utilisateurs possible.</p>
+<p data-start="379" data-end="803">Le site est simple et intuitif à utiliser. La page de la boutique est interactive et dynamique, avec plusieurs scripts Ajax utilisés, notamment pour afficher le prix actuel du bitcoin, puisque les NFT sont reliés aux cryptomonnaies. L’utilisateur peut se créer un compte afin de consulter ses achats passés ainsi que les reçus associés. Cela permet aussi au client de recevoir un courriel contenant les détails de son achat.</p>
+<p data-start="805" data-end="1478">Les articles sont tous recherchables à partir de la page d’accueil, qui est également la page boutique. Plusieurs pages d’administration de compte et différentes fonctionnalités pour les utilisateurs connectés sont disponibles. En cliquant sur un article, celui-ci s’ouvre dans une page différente avec la description complète, le nom de l’auteur, le titre et une illustration de l’article. Par la suite, un bouton permet d’acheter l’article détaillé via PayPal. Après avoir effectué le paiement, un reçu est enregistré dans la base de données et affiché à l’écran. Il est également possible de laisser un commentaire sur les articles afin de donner son avis sur le projet.</p>
+<p data-start="805" data-end="1478">Le site peut être changé en mode sombre à l&#8217;aide d&#8217;un icône dans la bar tout en haut comme la capture d&#8217;écran le démontre.</p>
+<p data-start="805" data-end="1478"><img loading="lazy" decoding="async" class="alignnone  wp-image-197" src="http://portefolio.leopold.monster/wp-content/uploads/2026/02/Screenshot-from-2026-02-12-18-00-02-1-300x143.png" alt="" width="566" height="270" srcset="https://portefolio.leopold.monster/wp-content/uploads/2026/02/Screenshot-from-2026-02-12-18-00-02-1-300x143.png 300w, https://portefolio.leopold.monster/wp-content/uploads/2026/02/Screenshot-from-2026-02-12-18-00-02-1-768x365.png 768w, https://portefolio.leopold.monster/wp-content/uploads/2026/02/Screenshot-from-2026-02-12-18-00-02-1-1536x730.png 1536w, https://portefolio.leopold.monster/wp-content/uploads/2026/02/Screenshot-from-2026-02-12-18-00-02-1.png 1920w" sizes="auto, (max-width: 566px) 100vw, 566px" /></p>
+<p data-start="1480" data-end="1830">Le code est très facile à comprendre. L’utilisation d’un fichier de configuration rend le site facile à déplacer sur n’importe quel autre serveur en modifiant à peine quelques lignes et en important les bases de données nécessaires au bon fonctionnement, comme les tables des utilisateurs, des articles en vente, des transactions et des commentaires.</p>
+<p data-start="1832" data-end="2267">L’architecture du projet est en MVC (Modèle, Vue et Contrôleur), ce qui rend les changements faciles à effectuer et à localiser. Tous les fichiers sont nommés de façon cohérente à travers le projet, ce qui évite d’avoir à chercher longtemps lorsqu’on connaît leur fonction. Ainsi, en environ 15 à 30 minutes, le site pourrait être entièrement déplacé. Même le système de paiement par PayPal peut être rapidement adapté aux changements.</p>
+<p data-start="2269" data-end="2781" data-is-last-node="" data-is-only-node="">L’utilisation de PayPal rend les paiements simples et sécuritaires pour le client. Le serveur de messagerie utilisé pour envoyer les courriels aux clients est entièrement administré par l’administrateur du serveur et non par Gmail ou Microsoft, par exemple. Tous les mots de passe sont chiffrés avant d’être envoyés à la base de données ; ainsi, même en cas de faille de sécurité ou d’employé malveillant, les mots de passe demeurent protégés par une barrière supplémentaire avant tout accès aux comptes clients.</p>
+
+
+
+<p>&nbsp;</p>
+
+
+
+<p>Voici une démonstration complète du site web et de ses fonctionnalitées : <a href="https://www.youtube.com/watch?v=UN5X788xF64&amp;feature=youtu.be">https://www.youtube.com/watch?v=UN5X788xF64&amp;feature=youtu.be</a></p>
+<p>Voici l&#8217;article du même projet, mais sur le portefolio de mon ami : <a href="https://portefolio.maxcorb.cv/site-web/nftstore/">https://portefolio.maxcorb.cv/site-web/nftstore/ </a></p>
+<p>&nbsp;</p>
+
+
+]]></content:encoded>
+					
+					<wfw:commentRss>https://portefolio.leopold.monster/showoff/nftstore-site-web-transactionnel/feed/</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
