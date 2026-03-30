@@ -354,30 +354,11 @@
         <div class="widget-label">Issues automatiques — mon repo</div>
         <div id="issues-auto-contenu" class="widget-chargement">Chargement...</div>
     </div>
-
-    <!-- COMMUNAUTÉ — STACK OVERFLOW -->
-    <!-- SUPPRIMER CETTE BOÎTE SI NON PERTINENT -->
-    <div class="widget w-4" id="widget-stackoverflow">
-        <div class="stat-icone cyan">💬</div>
-        <div class="widget-label">Stack Overflow</div>
-        <div class="widget-valeur widget-chargement">...</div>
-        <div class="widget-sous-texte">questions tagguées</div>
-    </div>
-
-    <!-- NPM DOWNLOADS (si applicable) -->
-    <!-- SUPPRIMER CETTE BOÎTE SI NON PERTINENT -->
-    <div class="widget w-8" id="widget-npm">
-        <div class="widget-label">Téléchargements npm (6 derniers mois)</div>
-        <div class="widget-graphique">
-            <canvas id="graphique-npm"></canvas>
-        </div>
-    </div>
-
 </main>
 
 <footer class="pied">
     <!-- TODO: Votre nom -->
-    [VOTRE NOM] — 420-663-MT Projet de spécialisation — Cégep de Matane — H2026
+    Léopold Boulianne — 420-663-MT Projet de spécialisation — Cégep de Matane — H2026
 </footer>
 
 <script>
@@ -387,43 +368,39 @@
 let CONFIG = {
 
     // Nom du projet affiché dans l'en-tête
-    nomProjet: "Mon Projet",
+    nomProjet: "Cool Tracker",
 
     // Repo GitHub de la TECHNOLOGIE PRINCIPALE (pas votre repo)
     // Exemple: "godotengine/godot", "facebook/react", "laravel/framework"
-    repoTechno: "godotengine/godot",
+    repoTechno: "microsoft/playwright",
 
     // Votre repo GitHub (pour les Issues automatiques)
     // Exemple: "monusername/mon-projet-specialisation"
-    monRepo: "username/mon-projet",
+    monRepo: "cegepmatane/projet-specialise-LeoBou",
 
     // Repos à comparer (stars GitHub)
     // Mettez votre techno principale en premier
     comparaison: [
-        { nom: "Godot",   repo: "godotengine/godot" },
-        { nom: "Unity",   repo: "AdrienMusic/unity-game-template" },
-        { nom: "Bevy",    repo: "bevyengine/bevy" },
-        { nom: "Stride",  repo: "stride3d/stride" }
+        { nom: "Playwright",   repo: "microsoft/playwright" },
+        { nom: "BeautifulSoup4",   repo: "wention/BeautifulSoup4" },
+        { nom: "Selenium",    repo: "SeleniumHQ/selenium" },
+        { nom: "cypress",  repo: "cypress-io/cypress" }
     ],
 
     // Nom du package npm (LAISSER VIDE si pas applicable)
     // Exemple: "react", "three", "leaflet", ""
     packageNpm: "",
 
-    // Tag Stack Overflow (LAISSER VIDE si pas applicable)
-    // Exemple: "godot", "reactjs", "laravel", ""
-    tagStackOverflow: "godot",
-
     // Flux RSS à combiner
     // Utiliser un proxy CORS : le template utilise allorigins
     fluxRss: [
         {
             nom: "Blog officiel",
-            url: "https://godotengine.org/rss.xml"
+            url: "https://portefolio.leopold.monster/feed/"
         },
         {
             nom: "Reddit",
-            url: "https://www.reddit.com/r/godot/.rss"
+            url: "https://www.reddit.com/r/webscraping/.rss"
         }
     ],
 
